@@ -7,7 +7,7 @@ class UsersService {
 
   constructor() {
     this.usersRepository = getCustomRepository(UsersRepository);
-  }
+  };
 
   async create(email: string) {
     // Verificar se usuário existe
@@ -28,6 +28,16 @@ class UsersService {
     await this.usersRepository.save(user);
 
     return user;
+  }
+
+  async findByEmail(email: string) {
+    return await this.usersRepository.findOne({ email })
+  }
+
+  async listUsers() {
+    const list = await this.usersRepository.find();
+
+    return list;
   }
 }
 
