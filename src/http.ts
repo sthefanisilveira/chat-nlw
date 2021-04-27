@@ -17,11 +17,15 @@ app.get("/pages/client", (request, response) => {
   return response.render("html/client.html");
 });
 
+app.get("/pages/admin", (request, response) => {
+  return response.render("html/admin.html")
+})
+
 const http = createServer(app); //Criando protocolo http
 const io = new Server(http); //Criando protocolo ws
 
 io.on("connection", (socket: Socket) => {
-  // console.log("Se conectou", socket.id);
+  console.log("Se conectou", socket.id);
 });
 
 app.use(express.json());
