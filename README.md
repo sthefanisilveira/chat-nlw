@@ -1,5 +1,5 @@
 <h1 align="center">
-  # Chat em tempo real
+  Chat em tempo real
 </h1>
 
 ## 📌 Sobre
