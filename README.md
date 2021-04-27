@@ -1,5 +1,9 @@
 <h1 align="center">
   Chat em tempo real
+  - [Sobre](#-sobre)
+  - [Tecnologias utilizadas](#-tecnologias-utilizadas)
+  - [Como baixar](#-como-baixar-o-projeto)
+  - [Desenvolvimento](#-desenvolvimento)
 </h1>
 
 ## 📌 Sobre
