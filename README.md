@@ -35,4 +35,4 @@ $ yarn dev
 ```
 
 ---
-Desenvolvido por 💜 [Sthéfani Silveira](https://www.linkedin.com/in/sthefani-silveira/)
+Desenvolvido com 💜 por [Sthéfani Silveira](https://www.linkedin.com/in/sthefani-silveira/)
